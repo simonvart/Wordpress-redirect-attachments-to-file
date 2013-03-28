@@ -2,6 +2,7 @@
 
 // TOOL
 // GET ATTACHMENT ID FROM GUID
+// Tx to Rarst http://wordpress.stackexchange.com/questions/6645/turn-a-url-into-an-attachment-post-id
 function get_attachment_id( $url ) {
 
     $dir = wp_upload_dir();
