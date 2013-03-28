@@ -49,6 +49,7 @@ function get_attachment_id( $url ) {
 }
 
 // GET INNER HTML OF A NODE
+// Tx to Haim Evgi http://stackoverflow.com/questions/2087103/innerhtml-in-phps-domdocument
 function DOMinnerHTML($element) 
 { 
     $innerHTML = ""; 
